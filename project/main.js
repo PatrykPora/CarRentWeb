@@ -45,3 +45,25 @@ ScrollReveal().reveal(".step_card", {
     ...scrollRevealOption,
     interval: 500,
 });
+
+ScrollReveal().reveal(".service_img img", {
+    ...scrollRevealOption,
+    origin: "left",
+});
+
+ScrollReveal().reveal(".service_content .section_subheader", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".service_content .section_header", {
+    ...scrollRevealOption,
+    delay: 1000,
+});
+
+ScrollReveal().reveal(".service_list li", {
+    ...scrollRevealOption,
+    delay: 1500,
+    interval: 500,
+});
+
