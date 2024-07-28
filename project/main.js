@@ -30,3 +30,18 @@ ScrollReveal().reveal(".header_content h1", {
     ...scrollRevealOption,
     delay: 500,
 });
+
+ScrollReveal().reveal(".header_content p", {
+    ...scrollRevealOption,
+    delay: 1000.
+});
+
+ScrollReveal().reveal(".header_links", {
+    ...scrollRevealOption,
+    delay: 1500,
+});
+
+ScrollReveal().reveal(".step_card", {
+    ...scrollRevealOption,
+    interval: 500,
+});
