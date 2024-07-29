@@ -67,3 +67,7 @@ ScrollReveal().reveal(".service_list li", {
     interval: 500,
 });
 
+ScrollReveal().reveal(".experience_card", {
+    duration: 1000,
+    interval: 500,
+});
